@@ -95,6 +95,7 @@ def verificajogo(secreto_temp, secreto, chances):
     else:
          if chances <= 0:
             print('Você perdeu! FORCA!')
+            print(f'A palavra era: {secreto}')
             return True      
     return False
 
